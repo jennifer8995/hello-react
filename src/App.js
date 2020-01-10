@@ -15,17 +15,16 @@ class App extends Component {
   }
     return (
       <div className="container">
-          {/* <div className="row">
+          <div className="row">
             <div className="col-xs-l col-xs-offset-11">
               <h1>Hello!</h1>
             </div>
           </div>
-
           <div className="row">
             <div className="col-xs-l col-xs-offset-11">
               <Header/>
             </div>
-          </div> */}
+          </div>
 
           {/* <div className="row">
             <div className="col-xs-l col-xs-offset-11">
@@ -47,8 +46,7 @@ class App extends Component {
           <div className="row">
             <div className="col-xs-l col-xs-offset-11">
             <h1>组件间数据传递</h1>
-              <Home name={"max"} age={12} user={user}>
-                <p>i am jennfier</p>
+              <Home name={"max"} initialAge={12} user={user}>
 
               </Home>
             </div>
